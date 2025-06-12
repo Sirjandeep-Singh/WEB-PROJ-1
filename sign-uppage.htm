@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sign-inpage.css">
+    <title>Sign-up</title>
+    <script src="Sign.js"></script>
+</head>
+<body>
+    <form action="./frontpage2.htm" onsubmit="return data2()">
+        <div id="oform">
+            <h1 style="text-align: center;" class="hero"> Sign-up</h1>
+            <label for="fname"> Name:</label>
+            <input type="text" name="Aname" id= "Aname" placeholder="Name">
+            <p  style="display: none; color: red;" id="e1" ></p>
+            <br>
+            <label for="dob"> Date of Birth:</label>
+            <input type="date" name="dob" id= "dob" placeholder="Date of Birth">
+            <p  style="display: none; color: red;" id="e2" ></p>
+            <br>
+            <label for="doe"> Date of Enrollment:</label>
+            <input type="date" name="doe" id= "doe" placeholder="">
+            <p  style="display: none; color: red;" id="e3" ></p>
+            <br>
+            <label for="fname"> Father's Name:</label>
+            <input type="text" name="fname" id= "fname" placeholder="Father's Name">
+            <p  style="display: none; color: red;" id="e4" ></p>
+            <br>
+            <label for="roles">Role:</label>
+            <select name="Roles" id="roles">
+                <option value="Student" id="student">Student</option>
+                <option value="Faculty" id="faculty">Faculty Memeber</option>
+            </select>
+            <br>
+            <label for="branch"> Branch:</label>
+            <div style="display: flex;">
+                <label for="CSE">CSE</label>
+                <input type="radio" name="branch" id= "Branch" placeholder="Father's Name">
+                <label for="IT"> | IT</label>
+                <input type="radio" name="branch" id= "Branch" placeholder="Father's Name">
+                <label for="CSE"> | ECE</label>
+                <input type="radio" name="branch" id= "Branch" placeholder="Father's Name">
+                <label for="CSE"> | EEE</label>
+                <input type="radio" name="branch" id= "Branch" placeholder="Father's Name">
+                <label for="CSE"> | MECH</label>
+                <input type="radio" name="branch" id= "Branch" placeholder="Father's Name">
+            </div>
+            <br>
+            <br>
+            <input type="submit" value="SIGN UP" class="button-type2">
+            <p style="text-align: center;">Already have an account?</p>
+            <a class= "button-type2"href="./sign-inpage.htm">LOG IN</a>
+        </div>
+    </form>
+</body>
+</html>

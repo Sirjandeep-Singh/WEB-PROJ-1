@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sign-inpage.css">
+    <title>Sign-in</title>
+    <script src="Sign.js"></script>
+</head>
+<body>
+    <form onsubmit="return data1()" action="./frontpage2.htm">
+        <div id="oform">
+            <h1 style="text-align: center;" class="hero"> Login</h1>
+            <label for="fname">Enter User-ID:</label><br>
+            <input type="text" name="Aname" id= "Aname" placeholder="ID">
+            <p  style="display: none; color: red;" id="e1" ></p>
+            <br>
+            <label for="Pword">Enter Password:</label><br>
+            <input type="password" name="Pword" id= "Pword" placeholder="Password">
+            <p  style="display: none; color: red;" id="e2" ></p>
+            <br>          
+            <label for="roles">Role:</label><br>
+            <select name="Roles" id="Roles">
+                <option value="Student" id="student">Student</option>
+                <option value="Faculty" id="faculty">Faculty Memeber</option>
+                <option value="Administrator" id="Administrator">Administrator</option>
+            </select>
+            <br>
+                <input type="submit" value="LOG IN" class="button-type2">
+            <p style="text-align: center;">Don't have an account?</p>
+            <a class= "button-type2"href="./sign-uppage.htm">SIGN UP</a>
+        </div>
+    </form>
+</body>
+</html>

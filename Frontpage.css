@@ -1,0 +1,116 @@
+.button-type1{
+    display : flex;
+    display : inline-block;
+    text-align : center;
+    border:2px solid black;
+    border-radius : 100px;
+    text-decoration : none;
+    padding : 5px 20px;
+    background-color : #f2f2f2;
+    color: black;
+    margin :  20px;
+    /*box-shadow: 0 5px 5px rgba(0,0,0,0.3);*/
+    box-shadow:
+    rgba(45, 35, 66, 0.2) 0 2px 4px,
+    rgba(45, 35, 66, 0.15) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+}
+.button-type1:hover{
+    /*background-color: #e0f0ff;*/
+    box-shadow:
+    rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+  background-color: #e0f0ff;
+}
+.txt-typ1{
+    font-family : Garamond;
+    font-weight : bold;
+}
+.heading1{
+    color:white;
+    text-align: center;
+    background-color: #033660;
+    margin-bottom: 0px;
+}
+.bg{
+    background: 
+    url("./Images/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+    background-size: 100vw;
+    margin:0px;
+    background-color: #f5f5f5;
+}
+.soft{
+    padding: 40px 20px;
+    background-color: rgba(255,255,255,0.95);
+    margin: 20 px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin:15px
+}
+.soft h2{
+    color: #003366;
+}
+.soft p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.soft address{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.hero{
+    background-color: #e0f0ff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.hero h1{
+    color: #003366;
+}
+.hero p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+nav{
+    display:flex;
+    background-color: #005599;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 8px;
+}
+nav a:hover{
+    border :1px dashed white;
+    padding:2px;
+    background-color: #033660;
+    margin:0px;
+
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.logo{
+    margin : 4px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+.pfp{
+    border-radius: 50%;
+    box-shadow:
+    rgba(45, 35, 66, 0.2) 0 2px 4px,
+    rgba(45, 35, 66, 0.15) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+}
+.pfp:hover{
+     box-shadow:
+    rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,38 @@
+.hero{
+    background-color: #e0f0ff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.hero2{
+    
+    padding: 20px;
+    margin-top: 0px;
+}
+.hero h1{
+    color: #003366;
+    font-family: papyrus ;
+}
+.hero p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.hero2 h2{
+    color: #003366;
+}
+.hero2 p{
+    margin-top: 10px;
+}
+ul{
+    list-style-type:square ;
+    list-style-position: outside;
+}
+hr{
+    height: 200px;
+    background-color: #003366;
+    margin: 5px;
+}
+.end{
+    position: absolute;
+    bottom: 50px;
+}
